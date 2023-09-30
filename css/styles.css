@@ -1,0 +1,13 @@
+/*Devalkumar Mistry 8925339*/
+body
+{
+    font: normal normal normal 12px/1.5 Arial, Helvetica, sans-serif;
+    width: 100;
+    height: 100;
+
+    background-color: hsla(297, 58%, 62%, 0.5);
+}
+h2{
+    color: #fff;
+    font-size: 2em;
+}
