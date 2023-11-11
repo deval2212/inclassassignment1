@@ -12,20 +12,48 @@ h2{
     font-size: 2em;
     
 }
+h1{
+    color: rgb(43, 31, 55); 
+    font-size: 30px;
+}
 header{
     background-color: hsl(201, 69%, 46%);
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+}
+nav ul li a {
+    color: indigo;
+    border: 2px solid indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 5px;
+}
+nav ul li a:hover{
+    color: cornsilk;
+    background-color: indigo;
+    border-color: cornsilk;
 }
 main{
     float: left;
     width: 65vw;
-    height: 60vh;
+   
     background-color: hsl(201, 42%, 57%);
 }
 aside{
     float: right;
     width: 25vw;
-    height: 60vh;
+ 
     background-color: hsl(201, 56%, 68%);
+}
+aside li{
+    list-style: square;
+    line-height: 2em;
+   
+}
+aside a{
+    color: rgba(222, 8, 16, 0.7);
 }
 footer{
     clear: both;
@@ -44,6 +72,24 @@ footer{
 }
 a:hover{
     color: #f00;
+}
+form{
+    border: 5px dashed darkblue;
+    padding: 5px;
+}
+input [type=text], input[type=email], input[type=submit], select, option{
+    display: block;
+    width: 50%;
+    height: 2em;
+}
+input [type=radio], input[type=checkbox]{
+    height: 2em;
+    width: 2em;
+}
+select, option, label,legend,input[type=submit]{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-variant: small-caps;
 }
 footer p {
     font-size: .75em;
